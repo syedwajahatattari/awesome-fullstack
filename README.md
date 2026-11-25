@@ -1,5 +1,9 @@
 # awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+<!-- lang-bar -->
+🌐 **English** · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md) · 🔗 [Website](https://thirstyeggplant.github.io/awesome-fullstack/)
+<!-- /lang-bar -->
+
 > A curated list on how to Full Stack
 
 Learn front-end, middle-tier, back-end tier, algorithms, and continuous delivery. Note: if you
@@ -11,7 +15,7 @@ go to stackoverflow and click any tag, then go to the info tab, it should contai
 
 # What to Learn
 0. [Trending](https://github.com/whatwhatgoose/trending/issues)
->1. [Front End](https://github.com/thirstyeggplant/awesome-fullstack#front-end-tier)
+1. [Front End](https://github.com/thirstyeggplant/awesome-fullstack#front-end-tier)
 2. [Middle Tier (Servers)](https://github.com/thirstyeggplant/awesome-fullstack#middle-tier)
 3. [Backend Tier (Database)](https://github.com/thirstyeggplant/awesome-fullstack#back-end-tier-database)
 4. [Dev-Ops,Product Management,Deployment, etc](https://github.com/thirstyeggplant/awesome-fullstack#dev-ops-continuous-deliveryintegrationdeployment)
@@ -39,7 +43,7 @@ MIT
 > What people see; User Interface / User Experience / Client Side / Design / Games / Mobile / T.V. / Hardware
 [Front End Developer HandBook](https://frontendmasters.gitbooks.io/front-end-handbook/content/index.html)
 
->1. **HTML**
+1. **HTML**
   - [Intro](https://github.com/thirstyeggplant/awesome-fullstack#html-intro)
 2. **CSS**
   1. [Intro](https://github.com/thirstyeggplant/awesome-fullstack#css-intro)
@@ -168,7 +172,7 @@ MIT
 # Middle-tier
 >The endpoint that talks to the client-side and the database
 
->1. [**Web Servers by language**](https://github.com/thirstyeggplant/awesome-fullstack#server-side)
+1. [**Web Servers by language**](https://github.com/thirstyeggplant/awesome-fullstack#server-side)
   - [GraphQL](https://graphql.org/learn/)
   - [C](https://github.com/kozross/awesome-c)
   - [C++](https://github.com/fffaraz/awesome-cpp)
@@ -263,7 +267,7 @@ MIT
 # Back-end tier (Database)
 >Stores and retrieves your data
 
->1. [**Sql**](https://github.com/thirstyeggplant/awesome-fullstack#sql)
+1. [**Sql**](https://github.com/thirstyeggplant/awesome-fullstack#sql)
 2. [**NoSql**](https://github.com/thirstyeggplant/awesome-fullstack#nosql)
 3. [**NewSql**](https://en.wikipedia.org/wiki/NewSQL)
   - Managed Postgres / SQLite: [Neon](https://neon.com/), [PlanetScale](https://planetscale.com/), [Turso](https://turso.tech/), [Supabase](https://supabase.com/)
