@@ -1,9 +1,13 @@
-# awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+# awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 > A curated list on how to Full Stack
 
 Learn front-end, middle-tier, back-end tier, algorithms, and continuous delivery. Note: if you
 go to stackoverflow and click any tag, then go to the info tab, it should contain resources about that tag.
+
+## Featured
+
+- **[Aubergine](https://github.com/thirstyeggplant/aubergine)** - All your terminals on one canvas in your browser. Run several coding agents (Claude Code, Codex, Cursor and plain shells) side by side and see at a glance which one is waiting for you, which step each is on, and what each has written for you. Runs on your own computer.
 
 # What to Learn
 0. [Trending](https://github.com/whatwhatgoose/trending/issues)
@@ -12,12 +16,14 @@ go to stackoverflow and click any tag, then go to the info tab, it should contai
 3. [Backend Tier (Database)](https://github.com/thirstyeggplant/awesome-fullstack#back-end-tier-database)
 4. [Dev-Ops,Product Management,Deployment, etc](https://github.com/thirstyeggplant/awesome-fullstack#dev-ops-continuous-deliveryintegrationdeployment)
 5. [Algorithms, AI, ML](https://github.com/thirstyeggplant/awesome-fullstack#algorithms-and-data-structures)
-6. [Community](https://github.com/thirstyeggplant/awesome-fullstack#community)
-7. [Open Sourcing: TBD](#)
+6. [AI-Assisted Development](https://github.com/thirstyeggplant/awesome-fullstack#ai-assisted-development)
+7. [Community](https://github.com/thirstyeggplant/awesome-fullstack#community)
+8. [Open Sourcing](https://github.com/thirstyeggplant/awesome-fullstack#open-sourcing)
 9. [Interview Preparation](https://github.com/thirstyeggplant/awesome-fullstack#interview-preparation)
 10. [Jobs](https://github.com/thirstyeggplant/awesome-fullstack#jobs)
 11. [Other](https://github.com/thirstyeggplant/awesome-fullstack#other)
-12. [Youtube Videos](https://news.ycombinator.com/item?id=12702651)
+12. [Learning Paths](https://github.com/thirstyeggplant/awesome-fullstack#learning-paths)
+13. [Youtube Videos](https://news.ycombinator.com/item?id=12702651)
 
 
 ## License
@@ -40,23 +46,46 @@ MIT
   2. [Animations](https://robots.thoughtbot.com/css-animation-for-beginners)
     - [Css animation for beginners (Youtube)](https://www.youtube.com/watch?v=D9YQBaDBJ88)
     - [How well do you know display](https://www.chenhuijing.com/blog/how-well-do-you-know-display/)
+  3. [Modern CSS](https://web.dev/learn/css)
+    - [Tailwind CSS](https://tailwindcss.com/)
+    - [Modern CSS Solutions](https://moderncss.dev/)
+    - [CSS Grid Guide (Josh Comeau)](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
 3. **Javascript**
   1. [Intro](https://github.com/thirstyeggplant/awesome-fullstack#js-intro)
   2. [Jquery](https://github.com/thirstyeggplant/awesome-fullstack#jquery-intro)
   3. [JS Intermediate](https://github.com/thirstyeggplant/awesome-fullstack#js-intermediate)
   4. [Awesome JS](https://github.com/thirstyeggplant/awesome-fullstack#awesome-js-list)
+  5. [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html)
+    - [Total TypeScript](https://www.totaltypescript.com/)
+    - [Type Challenges](https://github.com/type-challenges/type-challenges)
+    - [javascript.info](https://javascript.info/)
 4. **Client Side Development (Web)**
   - MVC-ish Frameworks
       - [React](https://github.com/thirstyeggplant/awesome-fullstack#react)
         - [Redux](https://github.com/thirstyeggplant/awesome-fullstack#redux)
         - [Learn Relay](https://learnrelay.org/)
-      - [Agular 2](https://github.com/AngularClass/awesome-angular2)
-      - [Agular 1](https://github.com/gianarb/awesome-angularjs)
+        - [React docs](https://react.dev/)
+        - [Next.js](https://nextjs.org/)
+        - [React Router](https://reactrouter.com/)
+        - [TanStack (Query, Router, Table, Start)](https://tanstack.com/)
+      - [Vue](https://vuejs.org/) + [Nuxt](https://nuxt.com/)
+      - [Svelte + SvelteKit](https://svelte.dev/)
+      - [Angular](https://angular.dev/)
+      - [Astro](https://astro.build/)
+      - [SolidJS](https://www.solidjs.com/)
+      - [htmx](https://htmx.org/)
+      - Legacy: [AngularJS (end of life)](https://github.com/gianarb/awesome-angularjs)
       - [Backbone](https://github.com/sadcitizen/awesome-backbone)
       - [Ember](https://github.com/nmec/awesome-ember)
       - [Mithril](https://github.com/lhorie/mithril)
   - Build Tools
-      - [Webpack](https://webpack.github.io/docs/tutorials/getting-started/)
+      - [Vite](https://vite.dev/)
+      - [esbuild](https://esbuild.github.io/)
+      - [Rspack](https://rspack.dev/)
+      - [Turborepo](https://turborepo.com/)
+      - [pnpm](https://pnpm.io/)
+      - [Biome](https://biomejs.dev/) - Fast formatter and linter
+      - [Webpack](https://webpack.js.org/)
       - [Browserify](http://browserify.org/)
       - [Gulp](https://github.com/alferov/awesome-gulp)
       - [Grunt](http://gruntjs.com/)
@@ -67,18 +96,28 @@ MIT
       - [Less](http://lesscss.org/)
     2. Web Framework
       - [Materialize](http://materializecss.com/)
-      - [Bootstrap](http://getbootstrap.com/)
+      - [Bootstrap](https://getbootstrap.com/)
+      - [shadcn/ui](https://ui.shadcn.com/)
+      - [Radix UI](https://www.radix-ui.com/)
       - [Google Material Design Lite](https://getmdl.io/)
       - [Foundation](http://foundation.zurb.com/)
   - Testing
-      - [Selenium](http://www.seleniumhq.org/)
-      - [Jest](https://facebook.github.io/jest/)
+      - [Playwright](https://playwright.dev/)
+      - [Vitest](https://vitest.dev/)
+      - [Testing Library](https://testing-library.com/)
+      - [Cypress](https://www.cypress.io/)
+      - [Storybook](https://storybook.js.org/)
+      - [Selenium](https://www.selenium.dev/)
+      - [Jest](https://jestjs.io/)
       - [Mocha](https://mochajs.org/)
-      - [Jasmine](jasmine.github.io/)
-      - [Chai](chaijs.com/)
-      - [Sinon](sinonjs.org/)
+      - [Jasmine](https://jasmine.github.io/)
+      - [Chai](https://www.chaijs.com/)
+      - [Sinon](https://sinonjs.org/)
   - Tools
-      - [Google Analytics](https://www.google.ca/analytics/)
+      - [Google Analytics](https://marketingplatform.google.com/about/analytics/)
+      - [PostHog](https://posthog.com/) - Open-source product analytics, session replay and feature flags
+      - [Plausible](https://plausible.io/) - Privacy-friendly analytics
+      - [Lighthouse](https://developer.chrome.com/docs/lighthouse/)
       - [Crazy Egg](https://www.crazyegg.com/)
       - [Sumo Me](https://sumome.com/app/heat-maps)
   - Checklist
@@ -91,24 +130,29 @@ MIT
   - [Awesome Design, UI/UX](https://github.com/thirstyeggplant/awesome-ui)
   - [Design Resources in HH Design](https://medium.com/hh-design/design-resources-5071be5f2e43)
   - [Optimization](https://github.com/davidsonfellipe/awesome-wpo)
+  - [Core Web Vitals](https://web.dev/articles/vitals)
   - [Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization)
   - [Web Components the right way](https://github.com/mateusortiz/webcomponents-the-right-way)
 6. **Mobile**
   1. [Android](https://github.com/JStumpp/awesome-android)
   2. [Ios Swift](https://github.com/matteocrippa/awesome-swift) OR [awesome ios](https://github.com/vsouza/awesome-ios)
   3. [Windows](https://developer.microsoft.com/en-us/windows)
-  4. [Black Berry](https://developer.blackberry.com/)
   5. [Native Script](https://www.nativescript.org/)
   6. [React Native](https://github.com/thirstyeggplant/awesome-fullstack#react-native)
+  7. [Expo](https://expo.dev/)
+  8. [Flutter](https://flutter.dev/)
+  9. [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+  10. [Jetpack Compose](https://developer.android.com/compose)
+  11. [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
 7. **Gaming**
   0. [Amit's Gaming Programming Information](http://www-cs-students.stanford.edu/~amitp/gameprog.html)
   1. [Unity](https://unity3d.com/)
-  2. [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4)
+  2. [Unreal Engine](https://www.unrealengine.com/)
   3. [GameMaker](http://www.yoyogames.com/gamemaker)
   4. [Construct2](https://www.scirra.com/construct2)
   5. [Playmaker](http://www.hutonggames.com/showcase.html)
   6. [Stencyl](http://www.stencyl.com/)
-  7. [Godot](http://www.godotengine.org/)
+  7. [Godot](https://godotengine.org/)
   8. [Amazon Lumberyard](http://aws.amazon.com/lumberyard/)
   9. [2D resources](https://www.reddit.com/r/Unity2D/comments/3dfi5k/lets_create_a_list_of_all_100_free_2d_assets_with/)
   10. [2D unity rpg tutorial](https://www.youtube.com/watch?v=NNpLsimyu3I&index=1&list=PL_4rJ_acBNMH3SExL3yIOzaqj5IP5CJLC)
@@ -118,13 +162,14 @@ MIT
 9. [**Embedded**](http://www.instructables.com/tag/type-id/category-technology/)
 10. Desktop
   1. [Awesome Electron](https://github.com/sindresorhus/awesome-electron)
+  2. [Tauri](https://tauri.app/) - Small, fast desktop and mobile apps with a web front end
 
 
 # Middle-tier
 >The endpoint that talks to the client-side and the database
 
 >1. [**Web Servers by language**](https://github.com/thirstyeggplant/awesome-fullstack#server-side)
-  - [GraphQL](https://learngraphql.com)
+  - [GraphQL](https://graphql.org/learn/)
   - [C](https://github.com/kozross/awesome-c)
   - [C++](https://github.com/fffaraz/awesome-cpp)
   - [C# / Dotnet](https://github.com/quozd/awesome-dotnet)
@@ -134,7 +179,12 @@ MIT
   - [Javascript](https://github.com/thirstyeggplant/awesome-fullstack#javascript-server)
   - [PHP](https://github.com/ziadoz/awesome-php)
   - [Python](https://github.com/vinta/awesome-python)
+    - [FastAPI](https://fastapi.tiangolo.com/)
+    - [Django](https://www.djangoproject.com/)
   - [Ruby](https://github.com/thirstyeggplant/awesome-fullstack#ruby)
+  - [Rust](https://github.com/rust-unofficial/awesome-rust)
+    - [The Rust Book](https://doc.rust-lang.org/book/)
+    - [Axum](https://github.com/tokio-rs/axum)
   - [Scala](https://github.com/lauris/awesome-scala)
 
 2. [**Networking**](https://github.com/thirstyeggplant/awesome-fullstack#networking)
@@ -142,10 +192,23 @@ MIT
   - [Awesome REST](https://github.com/marmelab/awesome-rest)
   - [Awesome API](https://github.com/Kikobeats/awesome-api)
   - [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html)
-4. **Serverless**
+  - [OpenAPI](https://www.openapis.org/)
+  - [tRPC](https://trpc.io/) - End-to-end typesafe APIs
+  - [gRPC](https://grpc.io/)
+  - [Zod](https://zod.dev/) - TypeScript-first schema validation
+4. [**Serverless**](https://github.com/thirstyeggplant/awesome-fullstack#serverless)
+  - [Cloudflare Workers](https://workers.cloudflare.com/)
+  - [AWS Lambda](https://aws.amazon.com/lambda/)
+  - [Vercel Functions](https://vercel.com/docs/functions)
 5. [**Command Line**](https://github.com/thirstyeggplant/awesome-fullstack#command-line)
 6. **Hosting**
-7. **Micro Services**
+  - [Vercel](https://vercel.com/)
+  - [Netlify](https://www.netlify.com/)
+  - [Cloudflare Pages](https://pages.cloudflare.com/)
+  - [Fly.io](https://fly.io/)
+  - [Render](https://render.com/)
+  - [Railway](https://railway.com/)
+7. [**Micro Services**](https://github.com/mfornos/awesome-microservices)
 8. [Testing](http://stackoverflow.com/questions/520064/what-is-unit-test-integration-test-smoke-test-regression-test)
   1. [Unit Test](https://github.com/thirstyeggplant/awesome-fullstack#unit-testing)
   2. [Integration Test / Functional Test](https://github.com/thirstyeggplant/awesome-fullstack#integration-testing)
@@ -156,10 +219,15 @@ MIT
   7. [Flagging Test](https://github.com/thirstyeggplant/awesome-fullstack#flagging-test)
   8. [End to End Test](https://github.com/thirstyeggplant/awesome-fullstack#end-to-end-testing)
   9. [Blogs](http://googletesting.blogspot.ca/2015/04/just-say-no-to-more-end-to-end-tests.html)
-9. [**OWASP**](https://www.owasp.org/index.php/Main_Page)
+9. [**OWASP**](https://owasp.org/)
+  - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+  - Auth: [Auth.js](https://authjs.dev/), [Better Auth](https://www.better-auth.com/), [Clerk](https://clerk.com/), [Keycloak](https://www.keycloak.org/)
+  - [Passkeys (passkeys.dev)](https://passkeys.dev/)
 10. [**Dev Ops / Environment/ Continous Integration**](https://github.com/thirstyeggplant/awesome-fullstack#dev-ops-continuous-deliveryintegrationdeployment)
 11. **Tools**
-  - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+  - [Postman](https://www.postman.com/)
+  - [Bruno](https://www.usebruno.com/) - Open-source, git-friendly API client
+  - [HTTPie](https://httpie.io/)
   - [Wire shark](https://www.wireshark.org/)
 12. **Configuration Management (CM) / Server Management**
   - [Salt](https://saltstack.com/)
@@ -167,12 +235,13 @@ MIT
   - [Chef](https://www.chef.io/)
   - [Ansible](https://www.ansible.com/)
   - [Docker](https://github.com/veggiemonk/awesome-docker)
-  - [Kubernetes](kubernetes.io/)
+  - [Kubernetes](https://kubernetes.io/)
   - [Docker Compose](https://docs.docker.com/compose/)
 13. [**Platforms**](https://github.com/thirstyeggplant/awesome-fullstack#platforms)
   - PAAS
-    - [AWS](https://github.com/thirstyeggplant/awesome-fullstack#aws)
+    - [AWS](https://github.com/donnemartin/awesome-aws)
     - [Heroku](https://www.heroku.com/)
+    - [Google Cloud Run](https://cloud.google.com/run)
     - [Google Cloud App Engine](https://cloud.google.com/appengine/docs)
   - IAAS
     - [Digital Ocean](https://www.digitalocean.com/)
@@ -180,8 +249,10 @@ MIT
     - [GCE](https://cloud.google.com/compute/)
     - [AWS](http://aws.amazon.com/)
   - BAAS
-    - [Compose](https://compose.io/)
-    - [firebase](https://www.firebase.com/)
+    - [Firebase](https://firebase.google.com/)
+    - [Supabase](https://supabase.com/)
+    - [Convex](https://www.convex.dev/)
+    - [Appwrite](https://appwrite.io/)
     - [pusher](https://pusher.com/)
     - [pubnub](https://www.pubnub.com/)
   - [Self Hosting](https://github.com/Kickball/awesome-selfhosted)
@@ -195,15 +266,30 @@ MIT
 >1. [**Sql**](https://github.com/thirstyeggplant/awesome-fullstack#sql)
 2. [**NoSql**](https://github.com/thirstyeggplant/awesome-fullstack#nosql)
 3. [**NewSql**](https://en.wikipedia.org/wiki/NewSQL)
-4. **Caching**
-5. **Search**
-6. [**Data Sets**](https://github.com/caesar0301/awesome-public-datasets)
-7. [**Data Mining**](http://guidetodatamining.com/)
+  - Managed Postgres / SQLite: [Neon](https://neon.com/), [PlanetScale](https://planetscale.com/), [Turso](https://turso.tech/), [Supabase](https://supabase.com/)
+4. **ORMs / Query Builders**
+  - [Drizzle ORM](https://orm.drizzle.team/)
+  - [Prisma](https://www.prisma.io/)
+  - [SQLAlchemy](https://www.sqlalchemy.org/)
+5. **Caching**
+  - [Redis](https://redis.io/)
+  - [Valkey](https://valkey.io/)
+6. **Search**
+  - [Meilisearch](https://www.meilisearch.com/)
+  - [Typesense](https://typesense.org/)
+  - [OpenSearch](https://opensearch.org/)
+7. **Vector Databases**
+  - [pgvector](https://github.com/pgvector/pgvector)
+  - [Qdrant](https://qdrant.tech/)
+8. [**Data Sets**](https://github.com/caesar0301/awesome-public-datasets)
+9. [**Data Mining**](http://guidetodatamining.com/)
 
 # Distributed Systems
 > Fundamentals Include: Cap Theorem, FLP Impossibility Theorem, Bimodal Multicast, Raft / Paxos, Lamport Time
 
-- [MIT 6.824](http://nil.csail.mit.edu/6.824/2015/)
+- [MIT 6.5840 (formerly 6.824)](https://pdos.csail.mit.edu/6.824/)
+- [Designing Data-Intensive Applications](https://dataintensive.net/)
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [Ed X](https://www.edx.org/course/reliable-distributed-algorithms-part-1-kthx-id2203-1x)
 - [Washington CSE 452](https://courses.cs.washington.edu/courses/cse452/16wi/calendar/lecturelist.html)
 
@@ -219,19 +305,26 @@ MIT
 - Artifacts
 - Rollbacks
 - **Tools**
-  1. [Jenkins](https://jenkins.io)
-  2. [Travis](https://travis-ci.org)
-  3. [Habitat.sh automation](https://www.habitat.sh/)
+  1. [GitHub Actions](https://github.com/features/actions)
+  2. [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+  3. [Jenkins](https://www.jenkins.io/)
   4. [Vagrant](https://www.vagrantup.com/)
   5. [Docker](https://github.com/veggiemonk/awesome-docker)
+  6. [Dev Containers](https://containers.dev/)
 - **Cluster Management / Containers / Infrastructure**
   1. [Kubernetes](http://kubernetes.io/)
   2. Docker + Vagrant
-  3. [Terraform](https://www.terraform.io/)
+  3. [Terraform](https://www.terraform.io/) / [OpenTofu](https://opentofu.org/)
+  4. [Pulumi](https://www.pulumi.com/)
+  5. [Podman](https://podman.io/)
+- **Observability**
+  1. [OpenTelemetry](https://opentelemetry.io/)
+  2. [Grafana](https://grafana.com/)
+  3. [Sentry](https://sentry.io/)
 
 
 
-#Software Product Management
+# Software Product Management
 > The process of manging the task to deploy a product/feature
 
 - [Agile Manifesto](http://agilemethodology.org/)
@@ -300,6 +393,30 @@ MIT
 - [Statistics without pain](https://www.youtube.com/watch?v=5Dnw46eC-0o&feature=youtu.be)
 
 
+# AI-Assisted Development
+> Coding agents, LLM APIs and the tooling around them
+
+- **Run and manage agents**
+  - [Aubergine](https://github.com/thirstyeggplant/aubergine) - Run several coding agents side by side on one canvas in your browser
+- **Coding agents & assistants**
+  - [Claude Code](https://www.anthropic.com/claude-code)
+  - [OpenAI Codex](https://openai.com/codex/)
+  - [GitHub Copilot](https://github.com/features/copilot)
+  - [Cursor](https://cursor.com/)
+  - [Aider](https://aider.chat/)
+- **Building with LLMs**
+  - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting models to tools and data
+  - [Anthropic Docs](https://docs.claude.com/)
+  - [OpenAI Platform Docs](https://platform.openai.com/docs)
+  - [Vercel AI SDK](https://ai-sdk.dev/)
+  - [LangChain](https://www.langchain.com/)
+  - [Hugging Face](https://huggingface.co/)
+  - [Ollama](https://ollama.com/) - Run open models locally
+- **Learn**
+  - [Neural Networks: Zero to Hero (Andrej Karpathy)](https://karpathy.ai/zero-to-hero.html)
+  - [fast.ai](https://course.fast.ai/)
+  - [Hugging Face Learn](https://huggingface.co/learn)
+
 # Paradigms
 > [Programming Paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
 
@@ -314,7 +431,6 @@ MIT
 - [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
 - [Free Code Camp](https://www.freecodecamp.com/challenges/say-hello-to-html-elements)
 - [Code Academy](https://www.codecademy.com/learn/web)
-- [https://www.codeschool.com/learn/html-css](https://www.codeschool.com/learn/html-css)
 - [Shayhowe](http://learn.shayhowe.com/html-css/building-your-first-web-page/)
 - [W3C HTML5 Tutorial](http://www.w3schools.com/html/)
 - [Mozilla](https://developer.mozilla.org/en-US/Learn/HTML/Introduction_to_HTML/Getting_started)
@@ -338,7 +454,6 @@ MIT
 - [w3c](http://www.w3schools.com/js/)
 - [codeacademy](https://www.codecademy.com/learn/javascript)
 - [egghead](https://egghead.io/technologies/js)
-- [codeschool](https://www.codeschool.com/learn/javascript)
 - [Stackoverflow Resource](http://stackoverflow.com/tags/javascript/info)
 
 
@@ -368,9 +483,8 @@ MIT
 
 
 # React Native
-- [Official](https://facebook.github.io/react-native/)
+- [Official](https://reactnative.dev/)
 - [Awesome React Native](https://github.com/jondot/awesome-react-native)
-- [React Native](https://rnplay.org)
 - [Resource](http://www.reactnative.com/)
 - [Egg Head](https://egghead.io/lessons/react-react-native-up-and-running?series=react-native-fundamentals)
 - [JS coach](https://js.coach/react-native)
@@ -383,7 +497,7 @@ MIT
 - [StackOverflow Erlang](http://stackoverflow.com/tags/erlang/info)
 
 # Go Server
-- [A tour of golang](https://tour.golang.org/welcome/1)
+- [A tour of Go](https://go.dev/tour/)
 - [Go Wiki](https://github.com/golang/go/wiki/Learn)
 - [Stack Overflow Go](http://stackoverflow.com/tags/go/info)
 - [Awesome Go](https://github.com/avelino/awesome-go)
@@ -393,10 +507,15 @@ MIT
 - [Node School](http://nodeschool.io/)
 - [Stackoverflow Resource](http://stackoverflow.com/tags/javascript/info)
 - [LearnCode.Academy](https://www.youtube.com/watch?v=pU9Q6oiQNd0&list=PLoYCgNOIyGAACzU6GliHJDp4kmOw3NFsh)
-- [Code School](https://www.codeschool.com/courses/real-time-web-with-node-js)
 - [Art of Node](https://github.com/maxogden/art-of-node/#the-art-of-node)
 - [Tutorials Point](http://www.tutorialspoint.com/nodejs/)
-- [Express](http://expressjs.com/)
+- [Express](https://expressjs.com/)
+- [Node.js Learn](https://nodejs.org/en/learn)
+- [Deno](https://deno.com/)
+- [Bun](https://bun.sh/)
+- [Hono](https://hono.dev/)
+- [Fastify](https://fastify.dev/)
+- [NestJS](https://nestjs.com/)
 - [Node/Sails/Socket.IO/Angular/Mongo](https://courses.platzi.com/courses/develop-apps-sails-js/)
 - [node tuts](http://nodetuts.com/)
 - [Airbnb style guide](https://github.com/airbnb/javascript)
@@ -451,19 +570,29 @@ MIT
 - [Art of command line](https://github.com/jlevy/the-art-of-command-line)
 - [Awesome OSX command line](https://github.com/herrbischoff/awesome-osx-command-line)
 - [Data Science command line](http://datascienceatthecommandline.com/)
-- [Fish](http://fishshell.com/)
+- [Fish](https://fishshell.com/)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fzf](https://github.com/junegunn/fzf)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [Starship prompt](https://starship.rs/)
+- [tmux](https://github.com/tmux/tmux/wiki)
+- [Ghostty](https://ghostty.org/)
 - [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 # Git
 - [Git tips](https://github.com/git-tips/tips)
 - [github desktop](https://desktop.github.com/)
+- [GitHub CLI](https://cli.github.com/)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
 - [xhacker github extensions](https://github.com/xhacker/awesome-github-extensions)
 - [stefan github extensions](https://github.com/stefanbuck/awesome-browser-extensions-for-github)
 - [awesome tooling and resources in chrome devtools ecosystem](https://github.com/ChromeDevTools/awesome-chrome-devtools)
 
 # Serverless
-- [Horizon](http://horizon.io/)
-- [Lambda](http://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/)
+- [Serverless Framework](https://www.serverless.com/)
 
 # Microservices
 - [awesome microservices](https://github.com/mfornos/awesome-microservices)
@@ -490,6 +619,9 @@ MIT
 
 # Sql
 - [Awesome Sql](https://github.com/shlomi-noach/awesome-mysql/blob/gh-pages/index.md)
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+- [SQLite](https://sqlite.org/)
+- [Use The Index, Luke](https://use-the-index-luke.com/)
 - [Setting Up SQL/ PostgreSQL](https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL)
 - [Bostongis: Postgis](http://www.bostongis.com/)
 - [Boundless geo: Postgis](http://workshops.boundlessgeo.com/suiteintro/postgis/index.html)
@@ -538,15 +670,25 @@ MIT
     - [App Engine](https://en.wikipedia.org/wiki/Google_App_Engine)
     - [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/)
     - [Open Shift](https://en.wikipedia.org/wiki/OpenShift)
-    - [Blue Minx](http://www.ibm.com/cloud-computing/bluemix/)
     - [Heroku](https://www.heroku.com/)
     - [Azure](https://azure.microsoft.com/en-us/services/app-service/web/)
   - BAAS
-    - [Firebase](https://www.firebase.com/)
+    - [Firebase](https://firebase.google.com/)
+    - [Supabase](https://supabase.com/)
     - [Pubnub](https://www.pubnub.com/)
     - [Pusher](https://pusher.com/)
   - [Self Hosted](https://github.com/Kickball/awesome-selfhosted)
 
+
+# Learning Paths
+- [roadmap.sh](https://roadmap.sh/) - Step-by-step roadmaps for frontend, backend, DevOps and more
+- [The Odin Project](https://www.theodinproject.com/)
+- [Full Stack Open](https://fullstackopen.com/en/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
+- [web.dev Learn](https://web.dev/learn)
+- [CS50](https://cs50.harvard.edu/x/)
+- [Frontend Masters](https://frontendmasters.com/)
 
 # Resource
 > Other stuff
@@ -554,8 +696,8 @@ MIT
 - [Awesome courses](https://github.com/prakhar1989/awesome-courses#artificial-intelligence)
 - [621+ Programming Resources](https://medium.com/free-stuff/2000-programming-resources-c2c835001216#.2cmo8h11l)
 - [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)
-- [FreeCode Camp](https://www.freecodecamp.com)
-- [The Oding Project](The Odin Project)
+- [freeCodeCamp](https://www.freecodecamp.org)
+- [The Odin Project](https://www.theodinproject.com/)
 - [Khan Academy](https://www.khanacademy.org/hourofcode)
 - [W3 Schools](http://www.w3schools.com/)
 - [Tuts +](http://tutsplus.com/)
@@ -585,12 +727,15 @@ MIT
 - [Velocity js animation (svg support)](https://github.com/julianshapiro/velocity)
 - [Snap.svg](https://github.com/adobe-webplatform/Snap.svg)
 - [Reveal](https://github.com/hakimel/reveal.js)
-- [Phantom JS](http://phantomjs.org/)
 - [Robo Browser](https://github.com/jmcarp/robobrowser)
 - [Selenium](http://www.seleniumhq.org/)
 - [Nightmare JS](https://github.com/segmentio/nightmare)
 - [Daydream](https://github.com/segmentio/daydream)
-- [Material UI](http://www.material-ui.com/#/)
+- [MUI](https://mui.com/)
+- [Motion](https://motion.dev/) - Animation for React, JS and Vue
+- [GSAP](https://gsap.com/)
+- [Puppeteer](https://pptr.dev/)
+- [Playwright](https://playwright.dev/)
 
 
 # Open Sourcing
@@ -598,6 +743,8 @@ MIT
 - [First Open Source Projects to Contribute to](http://up-for-grabs.net/#/)
 - [Blog about beginner open source](https://medium.com/@kentcdodds/first-timers-only-78281ea47455#.uki6osi6z)
 - [Code Triage](https://www.codetriage.com/)
+- [Good First Issue](https://goodfirstissue.dev/)
+- [GitHub: Open Source Guides](https://opensource.guide/)
 
 # Newsletters
 - [awesome newsletters](https://github.com/vredniy/awesome-newsletters)
@@ -606,7 +753,9 @@ MIT
 - [highscalability](http://highscalability.com/all-time-favorites/)
 - [hired in tech](http://www.hiredintech.com/system-design)
 - [bike shed](http://bikeshed.fm/)
-- [software engineering daily](http://softwareengineeringdaily.com/category/podcast/)
+- [software engineering daily](https://softwareengineeringdaily.com/)
+- [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/)
+- [ByteByteGo](https://blog.bytebytego.com/)
 - [dropbox](https://blogs.dropbox.com/tech/2014/07/open-sourcing-our-go-libraries/)
 
 # Inspirations
@@ -614,7 +763,7 @@ MIT
 - [Trending](https://github.com/trending)
 
 # ELI5
-- [Children's Illustrated guide to Kubernetes](https://deis.com/blog/2016/kubernetes-illustrated-guide/)
+- [Children's Illustrated guide to Kubernetes](https://www.cncf.io/phippy/)
 - [Selinux coloring book](https://github.com/mairin/selinux-coloring-book)
 - [Alligator Egg: lambda calculus](http://worrydream.com/AlligatorEggs/)
 
@@ -647,7 +796,8 @@ MIT
 # Hacking
 - [Hacking](https://www.hacksplaining.com/)
 - [Awesome Hack](https://github.com/carpedm20/awesome-hacking#ctf-competiton)
-- [Awesome Penetration Test]
+- [Awesome Penetration Testing](https://github.com/enaqx/awesome-pentest)
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 
 # Competitions
 - [Stupid Hackathon](http://www.stupidhackathon.com/)
@@ -655,11 +805,9 @@ MIT
 - [Hacker Rank](https://www.hackerrank.com/)
 - [Top Coder](https://www.topcoder.com/)
 - [Hack the North](https://hackthenorth.com/)
-- [Space Apps Challenge](spaceappschallenge.org)
+- [Space Apps Challenge](https://www.spaceappschallenge.org/)
 - [World Hackathon Day](http://worldhackathonday.com/)
 - [Dart Lang Hackathon](https://www.dartlang.org/hackathons/2012/happy-hour/)
-- [Battle Hack](battlehack.org)
-- [Code Eval](https://www.codeeval.com/)
 
 # Resume and Cover Letter
 - [Stackoverflow: A new technical resume](https://news.ycombinator.com/item?id=12685700)
@@ -671,7 +819,6 @@ MIT
 - [careercup](https://www.careercup.com/resume)
 
 # Interview Preparation
-- [Google]
 - [andreis curated guide](https://github.com/andreis/interview)
 - [David Byttow Post](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.szzt4wrh4)
 - [David Byttow Post #2](https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e#.vznuf3phv)
@@ -679,6 +826,10 @@ MIT
 - [Philip Youssef](http://www.restlessprogrammer.com/2013/09/hacking-coding-interview.html)
 - [Carlos Bueno facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
 - [leet code](https://leetcode.com/)
+- [NeetCode](https://neetcode.io/)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Grind 75](https://www.techinterviewhandbook.org/grind75)
 - [codwars](https://www.codewars.com/)
 - [geek for geeks](http://www.geeksforgeeks.org/)
 - [topcoder](https://community.topcoder.com/tc?module=ProblemArchive)
@@ -696,12 +847,13 @@ MIT
 # Jobs
 - [awesome interview questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
 - [awesome remote job](https://github.com/lukasz-madon/awesome-remote-job)
+- [Hacker News: Who is hiring (monthly)](https://news.ycombinator.com/submitted?id=whoishiring)
+- [Levels.fyi](https://www.levels.fyi/) - Compensation data
 - [working nomads](http://www.workingnomads.co/jobs)
 - [who is hiring](https://news.ycombinator.com/submitted?id=whoishiring)
 - [who is hiring](https://whoishiring.io/search/56.130/-105.732/3/?order=distance)
 - [stay in tech](https://stayintech.com/info/explore)
-- [triple byte](https://triplebyte.com/)
-- [angel list](https://angel.co/jobs)
+- [Wellfound (formerly AngelList Talent)](https://wellfound.com/)
 - [job hero weekly](http://www.jobheroweekly.com/)
 - [hnhiring](http://hnhiring.me/)
 - [simply hired](http://www.simplyhired.com/)
@@ -712,11 +864,9 @@ MIT
 - [remote teams](http://oinam.github.io/remote-teams/)
 - [we work remotely](https://weworkremotely.com/)
 - [betakit](http://betakit.com/jobs/)
-- [remoteok](https://remoteok.io/)
+- [Remote OK](https://remoteok.com/)
 - [remotive io google docs](https://docs.google.com/spreadsheets/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/edit#gid=0)
 - [remotive.io jobs](http://jobs.remotive.io/)
-- [stackoverflow](https://stackoverflow.com/jobs)
-- [github](https://jobs.github.com/)
 - [smarthires](https://www.smarthires.io/)
 - [white truffle](https://www.whitetruffle.com/#!/)
 - [curated opportunities for advanced engineers](https://www.latitude.work/)
