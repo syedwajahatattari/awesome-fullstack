@@ -1,10 +1,12 @@
 # awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <!-- lang-bar -->
-🌐 [English](README.md) · **简体中文** · [Español](README.es.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md) · 🔗 [网站](https://thirstyeggplant.github.io/awesome-fullstack/zh-CN/)
+**🔗 网站: [https://thirstyeggplant.github.io/awesome-fullstack/zh-CN/](https://thirstyeggplant.github.io/awesome-fullstack/zh-CN/)**
+
+🌐 [English](README.md) · **简体中文** · [Español](README.es.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md)
 <!-- /lang-bar -->
 
-> 本页译自英文版。工具和网站名称保留原文。
+<sub>本页译自英文版。工具和网站名称保留原文。</sub>
 
 > 关于如何成为全栈开发者的精选列表
 

@@ -1,10 +1,12 @@
 # awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <!-- lang-bar -->
-🌐 [English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · **한국어** · [Português (BR)](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md) · 🔗 [웹사이트](https://thirstyeggplant.github.io/awesome-fullstack/ko/)
+**🔗 웹사이트: [https://thirstyeggplant.github.io/awesome-fullstack/ko/](https://thirstyeggplant.github.io/awesome-fullstack/ko/)**
+
+🌐 [English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · **한국어** · [Português (BR)](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md)
 <!-- /lang-bar -->
 
-> 영어판을 번역한 문서입니다. 도구와 사이트 이름은 원문 그대로 두었습니다.
+<sub>영어판을 번역한 문서입니다. 도구와 사이트 이름은 원문 그대로 두었습니다.</sub>
 
 > 풀스택이 되는 방법에 대한 큐레이션 목록
 

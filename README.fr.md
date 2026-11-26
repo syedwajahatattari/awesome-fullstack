@@ -1,10 +1,12 @@
 # awesome-fullstack [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <!-- lang-bar -->
-🌐 [English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md) · **Français** · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md) · 🔗 [Site web](https://thirstyeggplant.github.io/awesome-fullstack/fr/)
+**🔗 Site web: [https://thirstyeggplant.github.io/awesome-fullstack/fr/](https://thirstyeggplant.github.io/awesome-fullstack/fr/)**
+
+🌐 [English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md) · **Français** · [Deutsch](README.de.md) · [हिन्दी](README.hi.md) · [বাংলা](README.bn.md) · [Bahasa Indonesia](README.id.md) · [العربية](README.ar.md)
 <!-- /lang-bar -->
 
-> Traduction de la version anglaise. Les noms d’outils et de sites sont laissés dans leur langue d’origine.
+<sub>Traduction de la version anglaise. Les noms d’outils et de sites sont laissés dans leur langue d’origine.</sub>
 
 > Une sélection pour devenir développeur Full Stack
 
